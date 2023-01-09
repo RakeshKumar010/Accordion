@@ -1,0 +1,82 @@
+body {
+    background: url("https://cdn.wallpapersafari.com/75/76/NfD9sh.jpg");
+    background-size: cover;
+    color: aliceblue;
+
+}
+
+.copyright {
+    text-align: center;
+    margin: 0vh 20vw;
+    background-color: rgb(66, 63, 63);
+    border-radius: 10px;
+    padding: 0.5vw;
+}
+
+.copyright a {
+    color: aliceblue;
+}
+
+.copyright a:hover {
+    color: blue;
+}
+
+
+.head {
+    position: fixed;
+    background-color: rgb(66, 63, 63);
+    width: 60.1%;
+    text-align: center;
+    margin-left: -3vw;
+
+    padding: 1vw;
+    box-shadow: 0px 5px 8px black;
+    border-radius: 10px;
+}
+
+
+.acco {
+    padding: 1vw;
+}
+
+.pls {
+    float: left;
+    margin-right: 1vw;
+}
+
+.ans::first-letter {
+    font-size: 150%;
+    color: rgb(59, 15, 85);
+    font-family: 'Moon Dance', cursive;
+
+}
+
+.ans {
+    background-color: rgb(76, 169, 197);
+    margin-left: 3vw;
+    color: rgb(17, 18, 19);
+    padding: 0vh 2vw;
+}
+
+.main {
+    width: 60%;
+    height: 70vh;
+    overflow: scroll;
+    margin: auto;
+    margin-top: 10vh;
+    padding: 0vh 3vw;
+}
+
+.main::-webkit-scrollbar {
+    display: none;
+}
+
+img {
+    width: 7.3%;
+    border: 2px solid gray;
+}
+
+ul {
+    float: left;
+    margin-bottom: -90vh;
+}
